@@ -10,6 +10,7 @@
         td {
             padding: 0 0.5em;
             vertical-align: top;
+            text-align: right;
         }
     </style>
     <meta charset="UTF-8">
@@ -25,15 +26,35 @@
     <form method="post">
         <table>
             <tr>
-                <td style="text-align: right;">
+                <td>
                     <label for="name">*Name: </label>
                     <input type="text" name="name" id="name" required autofocus>
                 </td>
-                <td style="text-align: right;">
+                <td>
                     <label for="tel">*Tel: </label>
                     <input type="number" name="tel" id="tel" required>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <label for="address">*Address: </label>
+                    <input type="text" name="address" id="address" required>
+                </td>
+                <td>
+                    <label for="email">*Email: </label>
+                    <input type="email" name="email" id="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="townCity">*Town/city: </label>
+                    <input type="text" name="town" id="town" required>
+                </td>
+            </tr>
+
+
+
+
         </table>
     </form>
 
