@@ -50,10 +50,10 @@ input, textarea {
 /* fonts */
 
 /* mobile styles */
-@media screen and (min-width: 350px) {
-    body {
+@media screen and (min-width: 350px) {    
+    .welcome-img {
         overflow-x: hidden;
-    }    
+    }
 }
 
 /* small tablet styles */
